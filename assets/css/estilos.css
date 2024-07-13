@@ -1,0 +1,113 @@
+.port{
+    background-color: #dae7f0;
+  
+    
+  }
+  .container-fluid img{
+    border-radius: 10px;
+  }
+  /* Hero Section */
+  
+  #Hero-Section {
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 500px;
+    
+  }
+  
+  /* productos */
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
+  .container img{
+    border-radius: 50%;
+  }
+  .container hgroup {
+    float: right;
+    text-align: center;
+  }
+  
+  .container hgroup h1 {
+    color: #fff;
+    font: 400 40px oswald, sans-serif;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+  }
+  
+  .container hgroup h2 {
+    color: #fff;
+    font-style: italic;
+    font: 400 20px oswald,sans-serif;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+  }
+  
+  
+  .fadeInDown {
+    /* Chrome, Safari, Opera */
+    -webkit-animation: fadeInDown 4s; 
+    animation: fadeInDown 4s;
+  }
+  
+  .fadeInUp {
+    /* Chrome, Safari, Opera */  
+    -webkit-animation: fadeInUp 4s; 
+    animation: fadeInUp 4s;
+  }
+  
+  .fadeInUp2 {
+    /* Chrome, Safari, Opera */  
+    -webkit-animation: fadeInUp2 3.7s; 
+    animation: fadeInUp2 3.7s;
+  }
+  
+  .fadeInLeft {
+    /* Chrome, Safari, Opera */  
+    -webkit-animation: fadeInLeft 4s; 
+    animation: fadeInLeft 4s;
+  }
+  
+  .fadeInRight {
+    /* Chrome, Safari, Opera */  
+    -webkit-animation: fadeInRight 4s; 
+    animation: fadeInRight 4s;
+  }
+  
+  .appear {
+    /* Chrome, Safari, Opera */
+    -webkit-animation: appear 6s; 
+    animation: appear 6s;
+  }
+  
+
+  .container p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+  }
+  .datos{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
